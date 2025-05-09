@@ -1,11 +1,17 @@
 source "https://rubygems.org"
 
+# Specify the Ruby version for compatibility
+ruby "3.1.0"
+
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
 #
 #     bundle exec jekyll serve
 #
+
+# Add Jekyll explicitly
+gem "jekyll", "~> 4.2.0"
 
 # If you have any plugins, put them here!
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
